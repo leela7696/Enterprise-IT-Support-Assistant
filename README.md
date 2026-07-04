@@ -51,7 +51,9 @@ enterprise-it-support-assistant/
 │   │   ├── employee_service.py     # Employee lookup
 │   │   ├── policy_service.py       # Policy search
 │   │   ├── conversation_manager.py # Conversation state management
-│   │   └── troubleshooting_service.py  # Step-by-step troubleshooting
+│   │   ├── troubleshooting_service.py  # Step-by-step troubleshooting
+│   │   ├── answer_interpreter.py   # Natural language answer parsing
+│   │   └── types.py                # Shared types and enums
 │   ├── utils/
 │   │   ├── __init__.py
 │   │   ├── logger.py           # Structured logging
@@ -71,6 +73,7 @@ enterprise-it-support-assistant/
 ## Features
 
 - **Intent Classification**: Rule-based intent detection with confidence scoring and matched keywords
+- **Natural Language Answer Parsing**: Understand natural language answers (not just yes/no) using AnswerInterpreter with issue-specific state detection
 - **Conversational Troubleshooting**: Step-by-step troubleshooting with decision trees for 10+ common IT issues
 - **Conversation State Management**: In-memory conversation storage (conversation_id, current_step, previous answers)
 - **Ticket Management**: Create support tickets only after troubleshooting fails (or user requests it), with automatic priority, category, and assigned team
@@ -79,7 +82,7 @@ enterprise-it-support-assistant/
 - **Health Check**: Endpoint to verify service health and uptime
 - **Structured Logging**: Comprehensive logging with request IDs, conversation IDs, execution times, and intent details
 - **Standardized Responses**: Consistent API response format across all endpoints
-- **Web UI**: Beautiful, responsive chat interface
+- **Web UI**: Beautiful, responsive Bootstrap 5 chat interface
 - **Comprehensive Documentation**: Swagger UI and Redoc for API exploration
 
 ## Installation
