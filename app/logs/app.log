@@ -1,0 +1,419 @@
+2026-07-03 15:59:17 - it_support_assistant - INFO - Received request: question='My VPN is not working'
+2026-07-03 15:59:17 - it_support_assistant - INFO - Detected intent: CREATE_TICKET
+2026-07-03 15:59:17 - it_support_assistant - INFO - Created ticket: id='INC1001' issue='My VPN is not working' priority=<Priority.MEDIUM: 'Medium'> status=<Status.OPEN: 'Open'> created_at=datetime.datetime(2026, 7, 3, 15, 59, 17, 138240) notes=None
+2026-07-03 15:59:17 - it_support_assistant - INFO - Received request: question='Show employee Sarah'
+2026-07-03 15:59:17 - it_support_assistant - INFO - Detected intent: EMPLOYEE_LOOKUP
+2026-07-03 15:59:17 - it_support_assistant - INFO - Received request: question='What is the password policy?'
+2026-07-03 15:59:17 - it_support_assistant - INFO - Detected intent: POLICY_SEARCH
+2026-07-03 15:59:17 - it_support_assistant - INFO - Received request: question="My system isn't working"
+2026-07-03 15:59:17 - it_support_assistant - INFO - Detected intent: UNKNOWN
+2026-07-03 15:59:17 - it_support_assistant - INFO - Received request: question=''
+2026-07-03 15:59:17 - it_support_assistant - WARNING - Validation failed: Question cannot be empty
+2026-07-03 15:59:17 - it_support_assistant - INFO - Received request: question='Hello'
+2026-07-03 15:59:17 - it_support_assistant - INFO - Detected intent: GREETING
+2026-07-03 16:01:08 - it_support_assistant - INFO - Received request: question='My VPN is not working'
+2026-07-03 16:01:08 - it_support_assistant - INFO - Detected intent: CREATE_TICKET
+2026-07-03 16:01:08 - it_support_assistant - INFO - Created ticket: id='INC1002' issue='My VPN is not working' priority=<Priority.MEDIUM: 'Medium'> status=<Status.OPEN: 'Open'> created_at=datetime.datetime(2026, 7, 3, 16, 1, 8, 572680) notes=None
+2026-07-03 16:01:08 - it_support_assistant - INFO - Received request: question='Show employee Sarah'
+2026-07-03 16:01:08 - it_support_assistant - INFO - Detected intent: EMPLOYEE_LOOKUP
+2026-07-03 16:01:08 - it_support_assistant - INFO - Received request: question='What is the password policy?'
+2026-07-03 16:01:08 - it_support_assistant - INFO - Detected intent: POLICY_SEARCH
+2026-07-03 16:01:08 - it_support_assistant - INFO - Received request: question="My system isn't working"
+2026-07-03 16:01:08 - it_support_assistant - INFO - Detected intent: UNKNOWN
+2026-07-03 16:01:08 - it_support_assistant - INFO - Received request: question=''
+2026-07-03 16:01:08 - it_support_assistant - WARNING - Validation failed: Question cannot be empty
+2026-07-03 16:01:08 - it_support_assistant - INFO - Received request: question='Hello'
+2026-07-03 16:01:08 - it_support_assistant - INFO - Detected intent: GREETING
+2026-07-03 16:09:16 - it_support_assistant - INFO - Received request: question='string'
+2026-07-03 16:09:16 - it_support_assistant - INFO - Detected intent: UNKNOWN
+2026-07-03 16:11:13 - it_support_assistant - INFO - Received request: question='string'
+2026-07-03 16:11:13 - it_support_assistant - INFO - Detected intent: UNKNOWN
+2026-07-03 17:20:00 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-CB5C, question=My VPN is not connecting]
+2026-07-03 17:20:00 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-CB5C, intent=CREATE_TICKET, confidence=0.25, matched_keywords=vpn]
+2026-07-03 17:20:00 - it_support_assistant - INFO - Confidence below threshold - clarification requested [request_id=REQ-20260703-CB5C, execution_time=0.56ms]
+2026-07-03 17:20:37 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-1A7F, question=My VPN is not connecting]
+2026-07-03 17:20:37 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-1A7F, intent=CREATE_TICKET, confidence=0.40, matched_keywords=vpn]
+2026-07-03 17:20:37 - it_support_assistant - INFO - Confidence below threshold - clarification requested [request_id=REQ-20260703-1A7F, execution_time=0.73ms]
+2026-07-03 17:20:37 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-D7ED, question=Show employee Sarah]
+2026-07-03 17:20:37 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-D7ED, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=show employee]
+2026-07-03 17:20:37 - it_support_assistant - INFO - Employee found [request_id=REQ-20260703-D7ED, execution_time=0.88ms, employee_id=EMP1001]
+2026-07-03 17:21:00 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-EA98, question=My VPN is not connecting]
+2026-07-03 17:21:00 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-EA98, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not connecting]
+2026-07-03 17:21:00 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-EA98, execution_time=1.78ms, ticket_id=INC1001]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-3190, question=What is the password policy?]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-3190, intent=POLICY_SEARCH, confidence=1.00, matched_keywords=policy,password policy]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Policy retrieved [request_id=REQ-20260703-3190, execution_time=2.17ms, policy_id=POL001]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-BA27, question=Check ticket INC1001]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-BA27, intent=CHECK_STATUS, confidence=1.00, matched_keywords=check ticket,inc]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Ticket status retrieved [request_id=REQ-20260703-BA27, execution_time=0.68ms, ticket_id=INC1001]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-69F6, question=Hello]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-69F6, intent=GREETING, confidence=0.60, matched_keywords=hello]
+2026-07-03 17:21:14 - it_support_assistant - INFO - Handled greeting [request_id=REQ-20260703-69F6, execution_time=0.21ms]
+2026-07-03 17:26:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-1D5F, question=My VPN is not connecting]
+2026-07-03 17:26:14 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-1D5F, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not connecting]
+2026-07-03 17:26:14 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-1D5F, execution_time=3.94ms, ticket_id=INC1002]
+2026-07-03 17:27:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-D9CB, question=what is vpn]
+2026-07-03 17:27:14 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-D9CB, intent=CREATE_TICKET, confidence=0.55, matched_keywords=vpn]
+2026-07-03 17:27:14 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-D9CB, execution_time=1.88ms, ticket_id=INC1003]
+2026-07-03 17:27:15 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-E299, question=what is vpn]
+2026-07-03 17:27:15 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-E299, intent=CREATE_TICKET, confidence=0.55, matched_keywords=vpn]
+2026-07-03 17:27:15 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-E299, execution_time=0.89ms, ticket_id=INC1004]
+2026-07-03 17:27:30 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-D3D5, question=what is vpn]
+2026-07-03 17:27:30 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-D3D5, intent=CREATE_TICKET, confidence=0.55, matched_keywords=vpn]
+2026-07-03 17:27:30 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-D3D5, execution_time=1.39ms, ticket_id=INC1005]
+2026-07-03 17:27:31 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-73DD, question=what is vpn]
+2026-07-03 17:27:31 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-73DD, intent=CREATE_TICKET, confidence=0.55, matched_keywords=vpn]
+2026-07-03 17:27:31 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-73DD, execution_time=1.31ms, ticket_id=INC1006]
+2026-07-03 17:45:27 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-6686, question=My VPN is not working]
+2026-07-03 17:45:27 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-6686, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not working]
+2026-07-03 17:45:27 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-6686, execution_time=4.39ms, ticket_id=INC1007]
+2026-07-03 17:45:33 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-0BEC, question=What is the status of INC1001?]
+2026-07-03 17:45:33 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-0BEC, intent=CHECK_STATUS, confidence=1.00, matched_keywords=what is the status,inc,status of]
+2026-07-03 17:45:33 - it_support_assistant - INFO - Ticket status retrieved [request_id=REQ-20260703-0BEC, execution_time=1.31ms, ticket_id=INC1001]
+2026-07-03 17:45:44 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-B28E, question=Find employee Sarah]
+2026-07-03 17:45:44 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-B28E, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=find employee]
+2026-07-03 17:45:44 - it_support_assistant - INFO - Employee found [request_id=REQ-20260703-B28E, execution_time=1.40ms, employee_id=EMP1001]
+2026-07-03 17:45:55 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-A6B1, question=Password policy]
+2026-07-03 17:45:55 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-A6B1, intent=POLICY_SEARCH, confidence=1.00, matched_keywords=policy,password policy]
+2026-07-03 17:45:55 - it_support_assistant - INFO - Policy retrieved [request_id=REQ-20260703-A6B1, execution_time=1.47ms, policy_id=POL001]
+2026-07-03 17:46:11 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-ED0C, question=what is python]
+2026-07-03 17:46:11 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-ED0C, intent=UNKNOWN, confidence=0.00, matched_keywords=]
+2026-07-03 17:46:11 - it_support_assistant - INFO - Confidence below threshold - clarification requested [request_id=REQ-20260703-ED0C, execution_time=0.19ms]
+2026-07-03 17:53:45 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-4F98, question=hi]
+2026-07-03 17:53:45 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-4F98, intent=GREETING, confidence=0.60, matched_keywords=hi]
+2026-07-03 17:53:45 - it_support_assistant - INFO - Handled greeting [request_id=REQ-20260703-4F98, execution_time=1.25ms]
+2026-07-03 17:53:50 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-A72E, question=What is VPN?]
+2026-07-03 17:53:50 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-A72E, intent=CREATE_TICKET, confidence=0.55, matched_keywords=vpn]
+2026-07-03 17:53:50 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-A72E, execution_time=2.41ms, ticket_id=INC1008]
+2026-07-03 17:54:01 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-F1B9, question=I'm facing an issue with VPN.]
+2026-07-03 17:54:01 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-F1B9, intent=CREATE_TICKET, confidence=0.95, matched_keywords=vpn,issue]
+2026-07-03 17:54:01 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-F1B9, execution_time=0.91ms, ticket_id=INC1009]
+2026-07-03 17:54:10 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-4C7D, question=I want to know the employee details.]
+2026-07-03 17:54:10 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-4C7D, intent=UNKNOWN, confidence=0.00, matched_keywords=]
+2026-07-03 17:54:10 - it_support_assistant - INFO - Confidence below threshold - clarification requested [request_id=REQ-20260703-4C7D, execution_time=0.36ms]
+2026-07-03 17:58:06 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-F5B9, question=hi]
+2026-07-03 17:58:06 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-F5B9, intent=GREETING, confidence=0.60, matched_keywords=hi]
+2026-07-03 17:58:06 - it_support_assistant - INFO - Handled greeting [request_id=REQ-20260703-F5B9, execution_time=1.77ms]
+2026-07-03 17:58:15 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-E0FA, question=who is krishna]
+2026-07-03 17:58:15 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-E0FA, intent=EMPLOYEE_LOOKUP, confidence=0.50, matched_keywords=who is]
+2026-07-03 17:58:15 - it_support_assistant - WARNING - Employee not found [request_id=REQ-20260703-E0FA, execution_time=1.85ms, employee_name=Krishna]
+2026-07-03 17:59:48 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-EEA4, question=hi]
+2026-07-03 17:59:48 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-EEA4, intent=GREETING, confidence=0.60, matched_keywords=hi]
+2026-07-03 17:59:48 - it_support_assistant - INFO - Handled greeting [request_id=REQ-20260703-EEA4, execution_time=1.57ms]
+2026-07-03 17:59:51 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-5F45, question=My laptop won't start]
+2026-07-03 17:59:51 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-5F45, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-03 17:59:51 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-5F45, execution_time=1.09ms, ticket_id=INC1010]
+2026-07-03 18:00:21 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-B346, question=I have plugged in the laptop, and maybe the power button issue. What should I do?]
+2026-07-03 18:00:21 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-B346, intent=CREATE_TICKET, confidence=0.95, matched_keywords=laptop,issue]
+2026-07-03 18:00:21 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-B346, execution_time=2.29ms, ticket_id=INC1011]
+2026-07-03 18:00:34 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-AD3A, question=Tell me the solution.]
+2026-07-03 18:00:34 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-AD3A, intent=UNKNOWN, confidence=0.00, matched_keywords=]
+2026-07-03 18:00:34 - it_support_assistant - INFO - Confidence below threshold - clarification requested [request_id=REQ-20260703-AD3A, execution_time=0.63ms]
+2026-07-03 18:00:39 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-16B7, question=Art is Python.]
+2026-07-03 18:00:39 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-16B7, intent=UNKNOWN, confidence=0.00, matched_keywords=]
+2026-07-03 18:00:39 - it_support_assistant - INFO - Confidence below threshold - clarification requested [request_id=REQ-20260703-16B7, execution_time=0.35ms]
+2026-07-03 18:00:42 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-0B1C, question=Check ticket INC1001]
+2026-07-03 18:00:42 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-0B1C, intent=CHECK_STATUS, confidence=1.00, matched_keywords=check ticket,inc]
+2026-07-03 18:00:42 - it_support_assistant - INFO - Ticket status retrieved [request_id=REQ-20260703-0B1C, execution_time=2.62ms, ticket_id=INC1001]
+2026-07-03 18:00:48 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-7917, question=Show employee Sarah]
+2026-07-03 18:00:48 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-7917, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=show employee]
+2026-07-03 18:00:48 - it_support_assistant - INFO - Employee found [request_id=REQ-20260703-7917, execution_time=1.34ms, employee_id=EMP1001]
+2026-07-03 18:01:03 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-8871, question=What is the password policy?]
+2026-07-03 18:01:03 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-8871, intent=POLICY_SEARCH, confidence=1.00, matched_keywords=policy,password policy]
+2026-07-03 18:01:03 - it_support_assistant - INFO - Policy retrieved [request_id=REQ-20260703-8871, execution_time=0.93ms, policy_id=POL001]
+2026-07-03 18:01:10 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-081F, question=The printer is not working]
+2026-07-03 18:01:10 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-081F, intent=CREATE_TICKET, confidence=1.00, matched_keywords=printer,not working]
+2026-07-03 18:01:10 - it_support_assistant - INFO - Ticket created successfully [request_id=REQ-20260703-081F, execution_time=1.94ms, ticket_id=INC1012]
+2026-07-03 18:14:10 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-3F98, question=My laptop won't start, conversation_id=None]
+2026-07-03 18:14:10 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-3F98, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-03 18:14:10 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260703-3F98, execution_time=1.01ms, conversation_id=CONV-667E34D8, issue_type=Laptop]
+2026-07-03 18:14:16 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-6BD0, question=My laptop won't start, conversation_id=None]
+2026-07-03 18:14:16 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-6BD0, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-03 18:14:16 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260703-6BD0, execution_time=0.35ms, conversation_id=CONV-9D9F43EA, issue_type=Laptop]
+2026-07-03 18:14:21 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-07FB, question=How can I solve the issue?, conversation_id=CONV-667E34D8]
+2026-07-03 18:14:21 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260703-07FB, execution_time=0.16ms, conversation_id=CONV-667E34D8, issue_type=Laptop, current_step=0]
+2026-07-03 18:14:26 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-EF98, question=It's completely dead, conversation_id=CONV-9D9F43EA]
+2026-07-03 18:14:26 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260703-EF98, execution_time=0.38ms, conversation_id=CONV-9D9F43EA, issue_type=Laptop, current_step=0]
+2026-07-03 18:14:32 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-96E1, question=When I press the button, the logo is coming and it is showing the blank., conversation_id=CONV-667E34D8]
+2026-07-03 18:14:32 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260703-96E1, execution_time=0.32ms, conversation_id=CONV-667E34D8, issue_type=Laptop, current_step=0]
+2026-07-03 18:15:30 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-259D, question=My laptop won't start, conversation_id=None]
+2026-07-03 18:15:30 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260703-259D, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-03 18:15:30 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260703-259D, execution_time=4.21ms, conversation_id=CONV-99F7E7A8, issue_type=Laptop]
+2026-07-03 18:15:40 - it_support_assistant - INFO - Received new request [request_id=REQ-20260703-34DE, question=yes, conversation_id=CONV-99F7E7A8]
+2026-07-03 18:15:40 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260703-34DE, execution_time=0.53ms, conversation_id=CONV-99F7E7A8, issue_type=Laptop, current_step=1]
+2026-07-04 10:16:56 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-23E1, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:16:56 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-23E1, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:16:56 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-23E1, execution_time=2.45ms, conversation_id=CONV-CC0A1641, issue_type=Laptop]
+2026-07-04 10:17:05 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-AC2E, question=Show employee Sarah, conversation_id=CONV-CC0A1641]
+2026-07-04 10:17:05 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260704-AC2E, execution_time=0.29ms, conversation_id=CONV-CC0A1641, issue_type=Laptop, current_step=0]
+2026-07-04 10:17:12 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-F26D, question=Show employee Sarah, conversation_id=CONV-CC0A1641]
+2026-07-04 10:17:12 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260704-F26D, execution_time=0.29ms, conversation_id=CONV-CC0A1641, issue_type=Laptop, current_step=0]
+2026-07-04 10:17:17 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-6D82, question=Show employee Sarah, conversation_id=None]
+2026-07-04 10:17:17 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-6D82, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=show employee]
+2026-07-04 10:17:17 - it_support_assistant - INFO - Employee found [request_id=REQ-20260704-6D82, execution_time=2.96ms, employee_id=EMP1001]
+2026-07-04 10:17:27 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-BEFB, question=EMP1001, conversation_id=None]
+2026-07-04 10:17:27 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-BEFB, intent=UNKNOWN, confidence=0.00, matched_keywords=]
+2026-07-04 10:17:27 - it_support_assistant - INFO - Intent unknown - clarification requested [request_id=REQ-20260704-BEFB, execution_time=0.47ms]
+2026-07-04 10:17:31 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-45A4, question=Show employee Sarah, conversation_id=None]
+2026-07-04 10:17:31 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-45A4, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=show employee]
+2026-07-04 10:17:31 - it_support_assistant - INFO - Employee found [request_id=REQ-20260704-45A4, execution_time=0.55ms, employee_id=EMP1001]
+2026-07-04 10:18:02 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-8357, question=Who is sarah, conversation_id=None]
+2026-07-04 10:18:02 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-8357, intent=EMPLOYEE_LOOKUP, confidence=0.50, matched_keywords=who is]
+2026-07-04 10:18:02 - it_support_assistant - INFO - Employee found [request_id=REQ-20260704-8357, execution_time=1.31ms, employee_id=EMP1001]
+2026-07-04 10:18:10 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-82B1, question=Who is EMP1001?, conversation_id=None]
+2026-07-04 10:18:10 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-82B1, intent=EMPLOYEE_LOOKUP, confidence=0.50, matched_keywords=who is]
+2026-07-04 10:18:10 - it_support_assistant - WARNING - Employee not found [request_id=REQ-20260704-82B1, execution_time=0.95ms, employee_name=Emp1001]
+2026-07-04 10:20:02 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-5878, question=My VPN is not working., conversation_id=None]
+2026-07-04 10:20:02 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-5878, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not working]
+2026-07-04 10:20:02 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-5878, execution_time=1.04ms, conversation_id=CONV-51C07868, issue_type=VPN]
+2026-07-04 10:20:23 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-79A3, question=My VPN is not working., conversation_id=None]
+2026-07-04 10:20:23 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-79A3, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not working]
+2026-07-04 10:20:23 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-79A3, execution_time=0.58ms, conversation_id=CONV-F6FDECA5, issue_type=VPN]
+2026-07-04 10:20:48 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-DE2C, question=My VPN is not working., conversation_id=None]
+2026-07-04 10:20:48 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-DE2C, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not working]
+2026-07-04 10:20:48 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-DE2C, execution_time=1.03ms, conversation_id=CONV-51E52F9B, issue_type=VPN]
+2026-07-04 10:20:56 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-295E, question=Yes, conversation_id=CONV-51E52F9B]
+2026-07-04 10:20:56 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260704-295E, execution_time=0.46ms, conversation_id=CONV-51E52F9B, issue_type=VPN, current_step=1]
+2026-07-04 10:21:18 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-D14C, question=No, conversation_id=CONV-51E52F9B]
+2026-07-04 10:21:18 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260704-D14C, execution_time=0.72ms, conversation_id=CONV-51E52F9B, issue_type=VPN, current_step=4]
+2026-07-04 10:21:27 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-244C, question=no, conversation_id=CONV-51E52F9B]
+2026-07-04 10:21:27 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260704-244C, execution_time=0.18ms, conversation_id=CONV-51E52F9B, issue_type=VPN, current_step=-1]
+2026-07-04 10:21:30 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-BFB2, question=ok, conversation_id=CONV-51E52F9B]
+2026-07-04 10:21:30 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260704-BFB2, execution_time=0.23ms, conversation_id=CONV-51E52F9B, issue_type=VPN, current_step=-1]
+2026-07-04 10:21:35 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-1154, question=create, conversation_id=CONV-51E52F9B]
+2026-07-04 10:21:35 - it_support_assistant - INFO - Continued conversation [request_id=REQ-20260704-1154, execution_time=0.28ms, conversation_id=CONV-51E52F9B, issue_type=VPN, current_step=-1]
+2026-07-04 10:32:19 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-85FB, question=My VPN is not working, conversation_id=None]
+2026-07-04 10:32:19 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-85FB, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not working]
+2026-07-04 10:32:19 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-85FB, execution_time=0.54ms, conversation_id=CONV-FD1B4064, issue_type=VPN]
+2026-07-04 10:32:29 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-8081, question=No, conversation_id=CONV-FD1B4064]
+2026-07-04 10:32:29 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-8081, execution_time=0.30ms, conversation_id=CONV-FD1B4064, issue_type=VPN, current_step=2]
+2026-07-04 10:32:39 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-B977, question=No, conversation_id=CONV-FD1B4064]
+2026-07-04 10:32:39 - it_support_assistant - INFO - Issue resolved! [request_id=REQ-20260704-B977, execution_time=0.24ms, conversation_id=CONV-FD1B4064]
+2026-07-04 10:32:51 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-664E, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:32:51 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-664E, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:32:51 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-664E, execution_time=1.01ms, conversation_id=CONV-BA5D3877, issue_type=Laptop]
+2026-07-04 10:33:01 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2146, question=Completely dead, conversation_id=CONV-BA5D3877]
+2026-07-04 10:33:01 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-2146, execution_time=0.52ms, conversation_id=CONV-BA5D3877, issue_type=Laptop, current_step=1]
+2026-07-04 10:33:10 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-E72B, question=No, conversation_id=CONV-BA5D3877]
+2026-07-04 10:33:10 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-E72B, execution_time=0.26ms, conversation_id=CONV-BA5D3877, issue_type=Laptop, current_step=3]
+2026-07-04 10:33:20 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-BF74, question=No, conversation_id=CONV-BA5D3877]
+2026-07-04 10:33:20 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-BF74, execution_time=0.68ms, conversation_id=CONV-BA5D3877, issue_type=Laptop, current_step=5]
+2026-07-04 10:33:28 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2383, question=No, conversation_id=CONV-BA5D3877]
+2026-07-04 10:33:28 - it_support_assistant - INFO - Issue resolved! [request_id=REQ-20260704-2383, execution_time=0.30ms, conversation_id=CONV-BA5D3877]
+2026-07-04 10:34:01 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-F5ED, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:34:01 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-F5ED, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:34:01 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-F5ED, execution_time=0.28ms, conversation_id=CONV-579818D8, issue_type=Laptop]
+2026-07-04 10:34:10 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-11DF, question=Completely dead, conversation_id=CONV-579818D8]
+2026-07-04 10:34:10 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-11DF, execution_time=0.39ms, conversation_id=CONV-579818D8, issue_type=Laptop, current_step=1]
+2026-07-04 10:34:20 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-0D96, question=No, conversation_id=CONV-579818D8]
+2026-07-04 10:34:20 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-0D96, execution_time=0.24ms, conversation_id=CONV-579818D8, issue_type=Laptop, current_step=3]
+2026-07-04 10:34:30 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-C560, question=No, conversation_id=CONV-579818D8]
+2026-07-04 10:34:30 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-C560, execution_time=0.30ms, conversation_id=CONV-579818D8, issue_type=Laptop, current_step=5]
+2026-07-04 10:34:40 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-E5C6, question=No, conversation_id=CONV-579818D8]
+2026-07-04 10:34:40 - it_support_assistant - INFO - Issue resolved! [request_id=REQ-20260704-E5C6, execution_time=0.24ms, conversation_id=CONV-579818D8]
+2026-07-04 10:34:51 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-F556, question=Yes, conversation_id=CONV-579818D8]
+2026-07-04 10:40:47 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-4376, question=VPN is not working., conversation_id=None]
+2026-07-04 10:40:47 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-4376, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not working]
+2026-07-04 10:40:47 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-4376, execution_time=1.17ms, conversation_id=CONV-DEAC0541, issue_type=VPN]
+2026-07-04 10:40:57 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-4B91, question=Yes., conversation_id=CONV-DEAC0541]
+2026-07-04 10:40:57 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-4B91
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:41:01 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-EBFB, question=yes, conversation_id=CONV-DEAC0541]
+2026-07-04 10:41:01 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-EBFB
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:41:07 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-5173, question=My VPN is not connecting, conversation_id=None]
+2026-07-04 10:41:07 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-5173, intent=CREATE_TICKET, confidence=1.00, matched_keywords=vpn,not connecting]
+2026-07-04 10:41:07 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-5173, execution_time=0.93ms, conversation_id=CONV-A7CE91C2, issue_type=VPN]
+2026-07-04 10:41:11 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-B19A, question=yes, conversation_id=CONV-A7CE91C2]
+2026-07-04 10:41:11 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-B19A
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:41:15 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-58E9, question=no, conversation_id=CONV-A7CE91C2]
+2026-07-04 10:41:15 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-58E9
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:41:23 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-9CAC, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:41:23 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-9CAC, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:41:23 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-9CAC, execution_time=0.77ms, conversation_id=CONV-D3F1F66D, issue_type=Laptop]
+2026-07-04 10:41:39 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-FF97, question=It's not completely dead. The logo is visible., conversation_id=CONV-D3F1F66D]
+2026-07-04 10:41:39 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-FF97
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:47:44 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2C80, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:47:44 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-2C80, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:47:44 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-2C80, execution_time=0.54ms, conversation_id=CONV-F1D1DB68, issue_type=Laptop]
+2026-07-04 10:47:53 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-52D6, question=yes, conversation_id=CONV-F1D1DB68]
+2026-07-04 10:47:53 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-52D6, intent=UNKNOWN, confidence=0.00, matched_keywords=]
+2026-07-04 10:47:53 - it_support_assistant - INFO - Intent unknown - clarification requested [request_id=REQ-20260704-52D6, execution_time=0.56ms]
+2026-07-04 10:47:59 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-A163, question=yes, conversation_id=CONV-F1D1DB68]
+2026-07-04 10:47:59 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-A163, intent=UNKNOWN, confidence=0.00, matched_keywords=]
+2026-07-04 10:47:59 - it_support_assistant - INFO - Intent unknown - clarification requested [request_id=REQ-20260704-A163, execution_time=0.49ms]
+2026-07-04 10:49:44 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-D411, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:49:44 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-D411, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:49:44 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-D411, execution_time=1.25ms, conversation_id=CONV-A793D806, issue_type=Laptop]
+2026-07-04 10:49:57 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-D284, question=It's not completely dead. The logo is visible, conversation_id=CONV-A793D806]
+2026-07-04 10:49:57 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-D284
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:50:04 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-A952, question=It's not completely dead., conversation_id=CONV-A793D806]
+2026-07-04 10:50:04 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-A952
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:52:10 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-8945, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:52:10 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-8945, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:52:10 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-8945, execution_time=1.41ms, conversation_id=CONV-E284E80F, issue_type=Laptop]
+2026-07-04 10:52:17 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-E0F4, question=It's not completely dead., conversation_id=CONV-E284E80F]
+2026-07-04 10:52:17 - it_support_assistant - ERROR - Unexpected error processing request REQ-20260704-E0F4
+Traceback (most recent call last):
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 123, in ask
+    return await handle_existing_conversation(
+  File "/Users/sunduleelakrishna/Gitrepos/AI-powered Enterprise IT Support Assistant/app/routes.py", line 225, in handle_existing_conversation
+    tree = troubleshooting_service.DECISION_TREES.get(issue_type, [])
+AttributeError: 'TroubleshootingService' object has no attribute 'DECISION_TREES'
+2026-07-04 10:53:58 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-5C0E, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:53:58 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-5C0E, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:53:58 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-5C0E, execution_time=0.60ms, conversation_id=CONV-0192C653, issue_type=Laptop]
+2026-07-04 10:54:08 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-5265, question=It's not completely dead. The logo is visible., conversation_id=CONV-0192C653]
+2026-07-04 10:54:08 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-5265, execution_time=0.34ms, conversation_id=CONV-0192C653, issue_type=Laptop, current_step=1]
+2026-07-04 10:54:21 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2C0A, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:54:21 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-2C0A, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:54:21 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-2C0A, execution_time=0.52ms, conversation_id=CONV-04B5E176, issue_type=Laptop]
+2026-07-04 10:54:32 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-5C2C, question=It's not completely dead., conversation_id=CONV-04B5E176]
+2026-07-04 10:54:32 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-5C2C, execution_time=0.50ms, conversation_id=CONV-04B5E176, issue_type=Laptop, current_step=1]
+2026-07-04 10:54:39 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-89C5, question=yes, conversation_id=CONV-04B5E176]
+2026-07-04 10:54:39 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-89C5, execution_time=0.47ms, conversation_id=CONV-04B5E176, issue_type=Laptop, current_step=2]
+2026-07-04 10:54:51 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-6ECA, question=no, conversation_id=CONV-04B5E176]
+2026-07-04 10:54:51 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-6ECA, execution_time=0.37ms, conversation_id=CONV-04B5E176, issue_type=Laptop, current_step=5]
+2026-07-04 10:54:57 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-1328, question=no, conversation_id=CONV-04B5E176]
+2026-07-04 10:54:57 - it_support_assistant - INFO - Issue resolved! [request_id=REQ-20260704-1328, execution_time=0.35ms, conversation_id=CONV-04B5E176]
+2026-07-04 10:55:00 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-BABA, question=ok, conversation_id=CONV-04B5E176]
+2026-07-04 10:55:06 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-C62C, question=Create a support ticket., conversation_id=CONV-04B5E176]
+2026-07-04 10:55:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-3B6B, question=create a support ticket?, conversation_id=CONV-04B5E176]
+2026-07-04 10:55:28 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2851, question=create a support ticket?, conversation_id=CONV-04B5E176]
+2026-07-04 10:56:17 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-8AE8, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:56:17 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-8AE8, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:56:17 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-8AE8, execution_time=0.78ms, conversation_id=CONV-7D355E34, issue_type=Laptop]
+2026-07-04 10:56:27 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-C0B0, question=It's not completely dead., conversation_id=CONV-7D355E34]
+2026-07-04 10:56:27 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-C0B0, execution_time=0.19ms, conversation_id=CONV-7D355E34, issue_type=Laptop, current_step=1]
+2026-07-04 10:56:36 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-4C64, question=yes, conversation_id=CONV-7D355E34]
+2026-07-04 10:56:36 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-4C64, execution_time=0.35ms, conversation_id=CONV-7D355E34, issue_type=Laptop, current_step=2]
+2026-07-04 10:56:43 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2D87, question=no, conversation_id=CONV-7D355E34]
+2026-07-04 10:56:43 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-2D87, execution_time=0.22ms, conversation_id=CONV-7D355E34, issue_type=Laptop, current_step=5]
+2026-07-04 10:56:50 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-62F3, question=no, conversation_id=CONV-7D355E34]
+2026-07-04 10:56:50 - it_support_assistant - INFO - Issue resolved! [request_id=REQ-20260704-62F3, execution_time=0.22ms, conversation_id=CONV-7D355E34]
+2026-07-04 10:57:06 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-6555, question=ok, conversation_id=CONV-7D355E34]
+2026-07-04 10:59:57 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-4D66, question=My laptop won't start, conversation_id=None]
+2026-07-04 10:59:57 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-4D66, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 10:59:57 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-4D66, execution_time=0.29ms, conversation_id=CONV-3F65BCE9, issue_type=Laptop]
+2026-07-04 11:00:05 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-C54E, question=It's not completely dead. The logo is visible., conversation_id=CONV-3F65BCE9]
+2026-07-04 11:00:05 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-C54E, execution_time=0.33ms, conversation_id=CONV-3F65BCE9, issue_type=Laptop, current_step=1]
+2026-07-04 11:00:12 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-0A55, question=yes, conversation_id=CONV-3F65BCE9]
+2026-07-04 11:00:12 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-0A55, execution_time=0.25ms, conversation_id=CONV-3F65BCE9, issue_type=Laptop, current_step=2]
+2026-07-04 11:00:20 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-D644, question=no, conversation_id=CONV-3F65BCE9]
+2026-07-04 11:00:20 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-D644, execution_time=0.23ms, conversation_id=CONV-3F65BCE9, issue_type=Laptop, current_step=5]
+2026-07-04 11:00:27 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-D880, question=no, conversation_id=CONV-3F65BCE9]
+2026-07-04 11:00:27 - it_support_assistant - INFO - Transition to WAITING_FOR_TICKET_CONFIRMATION [request_id=REQ-20260704-D880, execution_time=0.15ms, conversation_id=CONV-3F65BCE9]
+2026-07-04 11:00:34 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-B82D, question=ok, conversation_id=CONV-3F65BCE9]
+2026-07-04 11:00:34 - it_support_assistant - INFO - Created ticket from conversation [request_id=REQ-20260704-B82D, execution_time=1.81ms, ticket_id=INC1013, conversation_id=CONV-3F65BCE9]
+2026-07-04 11:08:12 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-C285, question=My laptop won't start, conversation_id=None]
+2026-07-04 11:08:12 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-C285, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 11:08:12 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-C285, execution_time=1.18ms, conversation_id=CONV-58C5F135, issue_type=Laptop]
+2026-07-04 11:08:27 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-C706, question=not completly dead, conversation_id=CONV-58C5F135]
+2026-07-04 11:08:27 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-C706, execution_time=0.30ms, conversation_id=CONV-58C5F135, issue_type=Laptop, current_step=1]
+2026-07-04 11:08:34 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-BA3B, question=yes, conversation_id=CONV-58C5F135]
+2026-07-04 11:08:34 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-BA3B, execution_time=0.20ms, conversation_id=CONV-58C5F135, issue_type=Laptop, current_step=2]
+2026-07-04 11:08:40 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-3E93, question=yes, conversation_id=CONV-58C5F135]
+2026-07-04 11:08:40 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-3E93, execution_time=0.44ms, conversation_id=CONV-58C5F135, issue_type=Laptop, current_step=4]
+2026-07-04 11:08:49 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-E28D, question=no, conversation_id=CONV-58C5F135]
+2026-07-04 11:08:49 - it_support_assistant - INFO - Transition to WAITING_FOR_TICKET_CONFIRMATION [request_id=REQ-20260704-E28D, execution_time=0.31ms, conversation_id=CONV-58C5F135]
+2026-07-04 11:08:52 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-3430, question=ok, conversation_id=CONV-58C5F135]
+2026-07-04 11:08:52 - it_support_assistant - INFO - Created ticket from conversation [request_id=REQ-20260704-3430, execution_time=2.01ms, ticket_id=INC1014, conversation_id=CONV-58C5F135]
+2026-07-04 11:18:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-33B8, question=My laptop won't start, conversation_id=None]
+2026-07-04 11:18:14 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-33B8, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 11:18:14 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-33B8, execution_time=1.17ms, conversation_id=CONV-B21D5C54, issue_type=Laptop]
+2026-07-04 11:19:08 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-8618, question=Hello there, conversation_id=None]
+2026-07-04 11:19:08 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-8618, intent=GREETING, confidence=0.60, matched_keywords=hello]
+2026-07-04 11:19:08 - it_support_assistant - INFO - Handled greeting [request_id=REQ-20260704-8618, execution_time=0.64ms]
+2026-07-04 11:19:23 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-1C5E, question=Find employee John, conversation_id=None]
+2026-07-04 11:19:23 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-1C5E, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=find employee]
+2026-07-04 11:19:23 - it_support_assistant - INFO - Employee found [request_id=REQ-20260704-1C5E, execution_time=1.49ms, employee_id=EMP1001]
+2026-07-04 11:19:34 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-EB9D, question=What is the password policy, conversation_id=None]
+2026-07-04 11:19:34 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-EB9D, intent=POLICY_SEARCH, confidence=1.00, matched_keywords=policy,password policy]
+2026-07-04 11:19:34 - it_support_assistant - INFO - Policy retrieved [request_id=REQ-20260704-EB9D, execution_time=0.70ms, policy_id=POL001]
+2026-07-04 11:19:47 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-325F, question=Check ticket INC1001, conversation_id=None]
+2026-07-04 11:19:47 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-325F, intent=CHECK_STATUS, confidence=1.00, matched_keywords=check ticket,inc]
+2026-07-04 11:19:47 - it_support_assistant - INFO - Ticket status retrieved [request_id=REQ-20260704-325F, execution_time=0.76ms, ticket_id=INC1001]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-DC93, question=My VPN won't connect, conversation_id=None]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-DC93, intent=CREATE_TICKET, confidence=0.55, matched_keywords=vpn]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-DC93, execution_time=0.46ms, conversation_id=CONV-B4E112A7, issue_type=VPN]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-A895, question=it says authentication failed, conversation_id=CONV-B4E112A7]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-A895, execution_time=0.20ms, conversation_id=CONV-B4E112A7, issue_type=VPN, current_step=1]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2696, question=yes I have internet, conversation_id=CONV-B4E112A7]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-2696, execution_time=0.22ms, conversation_id=CONV-B4E112A7, issue_type=VPN, current_step=3]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-B009, question=no still no good, conversation_id=CONV-B4E112A7]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Transition to WAITING_FOR_TICKET_CONFIRMATION [request_id=REQ-20260704-B009, execution_time=0.16ms, conversation_id=CONV-B4E112A7]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-2FF2, question=yes please create a ticket, conversation_id=CONV-B4E112A7]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Created ticket from conversation [request_id=REQ-20260704-2FF2, execution_time=1.22ms, ticket_id=INC1015, conversation_id=CONV-B4E112A7]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-26A3, question=Check ticket INC1015, conversation_id=None]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-26A3, intent=CHECK_STATUS, confidence=1.00, matched_keywords=check ticket,inc]
+2026-07-04 11:20:35 - it_support_assistant - INFO - Ticket status retrieved [request_id=REQ-20260704-26A3, execution_time=0.32ms, ticket_id=INC1015]
+2026-07-04 11:23:42 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-B913, question=hello, conversation_id=None]
+2026-07-04 11:23:42 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-B913, intent=GREETING, confidence=0.60, matched_keywords=hello]
+2026-07-04 11:23:42 - it_support_assistant - INFO - Handled greeting [request_id=REQ-20260704-B913, execution_time=0.89ms]
+2026-07-04 11:23:57 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-B37E, question=Show employee Sarah, conversation_id=None]
+2026-07-04 11:23:57 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-B37E, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=show employee]
+2026-07-04 11:23:57 - it_support_assistant - INFO - Employee found [request_id=REQ-20260704-B37E, execution_time=1.53ms, employee_id=EMP1001]
+2026-07-04 11:24:13 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-9F45, question=What is the password policy?, conversation_id=None]
+2026-07-04 11:24:13 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-9F45, intent=POLICY_SEARCH, confidence=1.00, matched_keywords=policy,password policy]
+2026-07-04 11:24:13 - it_support_assistant - INFO - Policy retrieved [request_id=REQ-20260704-9F45, execution_time=1.25ms, policy_id=POL001]
+2026-07-04 11:39:36 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-CFF9, question=Show employee Sarah, conversation_id=None]
+2026-07-04 11:39:36 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-CFF9, intent=EMPLOYEE_LOOKUP, confidence=0.60, matched_keywords=show employee]
+2026-07-04 11:39:36 - it_support_assistant - INFO - Employee found [request_id=REQ-20260704-CFF9, execution_time=2.33ms, employee_id=EMP1001]
+2026-07-04 11:40:12 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-3454, question=What is Password policy?, conversation_id=None]
+2026-07-04 11:40:12 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-3454, intent=POLICY_SEARCH, confidence=1.00, matched_keywords=policy,password policy]
+2026-07-04 11:40:12 - it_support_assistant - INFO - Policy retrieved [request_id=REQ-20260704-3454, execution_time=4.86ms, policy_id=POL001]
+2026-07-04 11:40:55 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-A6F6, question=My laptop won't Start, conversation_id=None]
+2026-07-04 11:40:55 - it_support_assistant - INFO - Intent classified [request_id=REQ-20260704-A6F6, intent=CREATE_TICKET, confidence=1.00, matched_keywords=laptop,won't start]
+2026-07-04 11:40:55 - it_support_assistant - INFO - Started new troubleshooting conversation [request_id=REQ-20260704-A6F6, execution_time=0.47ms, conversation_id=CONV-885DD55C, issue_type=Laptop]
+2026-07-04 11:41:22 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-CEA9, question=its not completely dead, conversation_id=CONV-885DD55C]
+2026-07-04 11:41:22 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-CEA9, execution_time=0.72ms, conversation_id=CONV-885DD55C, issue_type=Laptop, current_step=1]
+2026-07-04 11:41:36 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-759F, question=yes, conversation_id=CONV-885DD55C]
+2026-07-04 11:41:36 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-759F, execution_time=1.10ms, conversation_id=CONV-885DD55C, issue_type=Laptop, current_step=2]
+2026-07-04 11:41:44 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-4473, question=yes, conversation_id=CONV-885DD55C]
+2026-07-04 11:41:44 - it_support_assistant - INFO - Continuing troubleshooting [request_id=REQ-20260704-4473, execution_time=0.36ms, conversation_id=CONV-885DD55C, issue_type=Laptop, current_step=4]
+2026-07-04 11:41:55 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-AA92, question=yes, conversation_id=CONV-885DD55C]
+2026-07-04 11:41:55 - it_support_assistant - INFO - Transition to WAITING_FOR_TICKET_CONFIRMATION [request_id=REQ-20260704-AA92, execution_time=1.49ms, conversation_id=CONV-885DD55C]
+2026-07-04 11:42:14 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-368B, question=create support ticket, conversation_id=CONV-885DD55C]
+2026-07-04 11:42:14 - it_support_assistant - INFO - Created ticket from conversation [request_id=REQ-20260704-368B, execution_time=5.58ms, ticket_id=INC1016, conversation_id=CONV-885DD55C]
+2026-07-04 11:42:52 - it_support_assistant - INFO - Received new request [request_id=REQ-20260704-0B3E, question=My system is not working, conversation_id=CONV-885DD55C]
+2026-07-04 11:42:52 - it_support_assistant - INFO - Post-ticket conversation [request_id=REQ-20260704-0B3E, execution_time=0.88ms, conversation_id=CONV-885DD55C]

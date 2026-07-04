@@ -1,0 +1,102 @@
+[
+  {
+    "id": "EMP1001",
+    "name": "Sarah Johnson",
+    "department": "Engineering",
+    "designation": "Senior Software Engineer",
+    "manager": "David Chen",
+    "email": "sarah.johnson@company.com",
+    "phone": "+1-555-0101",
+    "office_location": "Headquarters"
+  },
+  {
+    "id": "EMP1002",
+    "name": "John Doe",
+    "department": "Marketing",
+    "designation": "Marketing Manager",
+    "manager": "Emily Davis",
+    "email": "john.doe@company.com",
+    "phone": "+1-555-0102",
+    "office_location": "New York Office"
+  },
+  {
+    "id": "EMP1003",
+    "name": "David Chen",
+    "department": "Engineering",
+    "designation": "Engineering Director",
+    "manager": "CEO",
+    "email": "david.chen@company.com",
+    "phone": "+1-555-0103",
+    "office_location": "Headquarters"
+  },
+  {
+    "id": "EMP1004",
+    "name": "Emily Davis",
+    "department": "Marketing",
+    "designation": "Marketing Director",
+    "manager": "CEO",
+    "email": "emily.davis@company.com",
+    "phone": "+1-555-0104",
+    "office_location": "Headquarters"
+  },
+  {
+    "id": "EMP1005",
+    "name": "Michael Brown",
+    "department": "Sales",
+    "designation": "Sales Representative",
+    "manager": "Jessica Williams",
+    "email": "michael.brown@company.com",
+    "phone": "+1-555-0105",
+    "office_location": "Chicago Office"
+  },
+  {
+    "id": "EMP1006",
+    "name": "Jessica Williams",
+    "department": "Sales",
+    "designation": "Sales Manager",
+    "manager": "CEO",
+    "email": "jessica.williams@company.com",
+    "phone": "+1-555-0106",
+    "office_location": "Chicago Office"
+  },
+  {
+    "id": "EMP1007",
+    "name": "Chris Wilson",
+    "department": "HR",
+    "designation": "HR Specialist",
+    "manager": "Amanda Taylor",
+    "email": "chris.wilson@company.com",
+    "phone": "+1-555-0107",
+    "office_location": "Headquarters"
+  },
+  {
+    "id": "EMP1008",
+    "name": "Amanda Taylor",
+    "department": "HR",
+    "designation": "HR Director",
+    "manager": "CEO",
+    "email": "amanda.taylor@company.com",
+    "phone": "+1-555-0108",
+    "office_location": "Headquarters"
+  },
+  {
+    "id": "EMP1009",
+    "name": "Kevin Anderson",
+    "department": "Finance",
+    "designation": "Financial Analyst",
+    "manager": "Laura Martinez",
+    "email": "kevin.anderson@company.com",
+    "phone": "+1-555-0109",
+    "office_location": "Headquarters"
+  },
+  {
+    "id": "EMP1010",
+    "name": "Laura Martinez",
+    "department": "Finance",
+    "designation": "Finance Director",
+    "manager": "CEO",
+    "email": "laura.martinez@company.com",
+    "phone": "+1-555-0110",
+    "office_location": "Headquarters"
+  }
+]

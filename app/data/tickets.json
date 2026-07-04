@@ -1,0 +1,178 @@
+[
+  {
+    "ticket_id": "INC1001",
+    "issue": "My VPN is not connecting",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:21:00.841969",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1002",
+    "issue": "My VPN is not connecting",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:26:14.846740",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1003",
+    "issue": "what is vpn",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:27:14.468406",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1004",
+    "issue": "what is vpn",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:27:15.365498",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1005",
+    "issue": "what is vpn",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:27:30.786589",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1006",
+    "issue": "what is vpn",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:27:31.280556",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1007",
+    "issue": "My VPN is not working",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:45:27.046267",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1008",
+    "issue": "What is VPN?",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:53:50.863299",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1009",
+    "issue": "I'm facing an issue with VPN.",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-03 17:54:01.935379",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1010",
+    "issue": "My laptop won't start",
+    "priority": "High",
+    "category": "Hardware",
+    "assigned_team": "End User Support",
+    "status": "Open",
+    "created_at": "2026-07-03 17:59:51.086246",
+    "suggested_resolution": "Check if the laptop is plugged in and the battery is charged. Try holding the power button for 10 seconds.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1011",
+    "issue": "I have plugged in the laptop, and maybe the power button issue. What should I do?",
+    "priority": "Medium",
+    "category": "Hardware",
+    "assigned_team": "End User Support",
+    "status": "Open",
+    "created_at": "2026-07-03 18:00:21.992579",
+    "suggested_resolution": null,
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1012",
+    "issue": "The printer is not working",
+    "priority": "Medium",
+    "category": "Hardware",
+    "assigned_team": "End User Support",
+    "status": "Open",
+    "created_at": "2026-07-03 18:01:10.897138",
+    "suggested_resolution": "Ensure the printer is powered on, connected to the network, and has paper and toner.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1013",
+    "issue": "My laptop won't start",
+    "priority": "High",
+    "category": "Hardware",
+    "assigned_team": "End User Support",
+    "status": "Open",
+    "created_at": "2026-07-04 11:00:34.544175",
+    "suggested_resolution": "Check if the laptop is plugged in and the battery is charged. Try holding the power button for 10 seconds.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1014",
+    "issue": "My laptop won't start",
+    "priority": "High",
+    "category": "Hardware",
+    "assigned_team": "End User Support",
+    "status": "Open",
+    "created_at": "2026-07-04 11:08:52.692612",
+    "suggested_resolution": "Check if the laptop is plugged in and the battery is charged. Try holding the power button for 10 seconds.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1015",
+    "issue": "My VPN won't connect",
+    "priority": "Medium",
+    "category": "Network",
+    "assigned_team": "IT Infrastructure",
+    "status": "Open",
+    "created_at": "2026-07-04 11:20:35.318065",
+    "suggested_resolution": "Please reconnect to the VPN and verify your internet connection. If the problem persists, restart your computer.",
+    "notes": null
+  },
+  {
+    "ticket_id": "INC1016",
+    "issue": "My laptop won't Start",
+    "priority": "High",
+    "category": "Hardware",
+    "assigned_team": "End User Support",
+    "status": "Open",
+    "created_at": "2026-07-04 11:42:14.381303",
+    "suggested_resolution": "Check if the laptop is plugged in and the battery is charged. Try holding the power button for 10 seconds.",
+    "notes": null
+  }
+]

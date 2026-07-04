@@ -1,0 +1,27 @@
+[
+  {
+    "id": "POL001",
+    "title": "Password Policy",
+    "description": "Passwords must be at least 12 characters long, include uppercase, lowercase, numbers, and special characters. Passwords expire every 90 days."
+  },
+  {
+    "id": "POL002",
+    "title": "VPN Policy",
+    "description": "VPN access is required for all remote work. Use company-provided VPN client. Access logs are monitored."
+  },
+  {
+    "id": "POL003",
+    "title": "Leave Policy",
+    "description": "Employees are entitled to 20 days of paid leave per year. Leave requests must be submitted 3 days in advance."
+  },
+  {
+    "id": "POL004",
+    "title": "Remote Work Policy",
+    "description": "Remote work is allowed 3 days per week. Employees must be available during core hours (9 AM - 5 PM)."
+  },
+  {
+    "id": "POL005",
+    "title": "Laptop Usage Policy",
+    "description": "Company laptops are for business use only. Report any damage immediately. Do not install unauthorized software."
+  }
+]
